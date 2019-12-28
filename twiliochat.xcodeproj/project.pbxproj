@@ -634,7 +634,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = twilio.twiliochat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "twiliochat/twiliochat-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -657,7 +657,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = twilio.twiliochat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "twiliochat/twiliochat-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
