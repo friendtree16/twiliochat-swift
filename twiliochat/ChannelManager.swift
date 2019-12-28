@@ -27,6 +27,10 @@ class ChannelManager: NSObject {
                 self.generalChannel = channel
                 
                 if self.generalChannel != nil {
+                    if (self.generalChannel.status == TCHChannelStatus.joined) {
+                        completion(true)
+                        return
+                    }
                     self.joinGeneralChatRoomWithUniqueName(name: nil, completion: completion)
                 } else {
                     self.createGeneralChatRoomWithCompletion { succeeded in
